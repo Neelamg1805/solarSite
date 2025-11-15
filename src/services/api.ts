@@ -1,7 +1,7 @@
 import axios, { AxiosInstance, AxiosError, AxiosRequestConfig, AxiosResponse } from 'axios';
 import { ApiResponse, ApiError } from '../types/common';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3001/api';
+const API_BASE_URL =  'http://localhost:3001/api';
 
 class ApiService {
   private api: AxiosInstance;
