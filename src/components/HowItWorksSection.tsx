@@ -107,7 +107,7 @@ export const HowItWorksSection: React.FC = () => {
 
           {/* Steps */}
           <div className="space-y-16 md:space-y-24">
-            {steps.map((step, index) => (
+            {steps.map((step) => (
               <div
                 key={step.id}
                 className={`relative flex flex-col md:flex-row items-center ${
