@@ -1,27 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export const ContactSidebar: React.FC = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   return (
     <div className="hidden md:flex fixed right-0 top-1/2 -translate-y-1/2 z-40 flex-col items-end">
+      {/* Collapse/Expand Button */}
+      <button
+        onClick={() => setIsExpanded(!isExpanded)}
+        className="bg-gray-800 text-white px-3 py-4 rounded-l-lg shadow-lg hover:bg-gray-700 transition-colors"
+        aria-label={isExpanded ? 'Collapse contact sidebar' : 'Expand contact sidebar'}
+      >
+        <svg
+          className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+
       {/* Contact Tab */}
-      <div className="bg-orange-500 text-white px-4 py-6 rounded-l-lg shadow-lg">
+      <div className="bg-orange-500 text-white px-4 py-6 rounded-l-lg shadow-lg flex items-center space-x-3">
+        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
         <span className="font-semibold text-sm writing-vertical-rl block">Contact Us</span>
       </div>
 
       {/* Contact Icons */}
-      <div className="mt-2 space-y-3">
-        <a
-          href="mailto:info@solluz.co.in"
-          className="block w-12 h-12 bg-yellow-400 hover:bg-yellow-500 rounded-full flex items-center justify-center shadow-lg transition-colors"
-          title="Email"
-        >
-          <svg className="w-6 h-6 text-yellow-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-          </svg>
-        </a>
+      <div className="mt-2 space-y-0">
         <a
           href="tel:+917827110601"
-          className="block w-12 h-12 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center shadow-lg transition-colors"
+          className="block w-14 h-14 bg-green-500 hover:bg-green-600 rounded-tl-lg flex items-center justify-center shadow-lg transition-colors"
           title="Call"
         >
           <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -32,7 +44,7 @@ export const ContactSidebar: React.FC = () => {
           href="https://wa.me/917827110601"
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-12 h-12 bg-green-600 hover:bg-green-700 rounded-full flex items-center justify-center shadow-lg transition-colors"
+          className="block w-14 h-14 bg-green-600 hover:bg-green-700 rounded-bl-lg flex items-center justify-center shadow-lg transition-colors"
           title="WhatsApp"
         >
           <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
