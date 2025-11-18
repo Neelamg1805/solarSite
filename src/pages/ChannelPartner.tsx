@@ -44,7 +44,7 @@ export const ChannelPartner: React.FC = () => {
       message: '',
     },
     validationSchema: channelPartnerSchema,
-    onSubmit: async (formValues) => {
+    onSubmit: async () => {
       setIsSubmitting(true);
       try {
         // Simulate API call

@@ -27,7 +27,7 @@ export const Contact: React.FC = () => {
       message: '',
     },
     validationSchema: contactSchema,
-    onSubmit: async (formValues) => {
+    onSubmit: async () => {
       setIsSubmitting(true);
       try {
         // Simulate API call
