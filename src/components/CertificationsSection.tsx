@@ -1,45 +1,45 @@
 import React from 'react';
 
-interface Certification {
-  id: string;
-  name: string;
-  logo: string;
-  alt: string;
-}
+// interface Certification {
+//   id: string;
+//   name: string;
+//   logo: string;
+//   alt: string;
+// }
 
-const certifications: Certification[] = [
-  {
-    id: '1',
-    name: 'IndianOil',
-    logo: 'https://via.placeholder.com/150x80/FF6600/FFFFFF?text=IndianOil',
-    alt: 'IndianOil Logo',
-  },
-  {
-    id: '2',
-    name: 'NTPC',
-    logo: 'https://via.placeholder.com/150x80/0066CC/FFFFFF?text=NTPC',
-    alt: 'NTPC Logo',
-  },
-  {
-    id: '3',
-    name: 'BRAITHWAITE',
-    logo: 'https://via.placeholder.com/150x80/000000/FFFFFF?text=BRAITHWAITE',
-    alt: 'Braithwaite Logo',
-  },
-  {
-    id: '4',
-    name: 'CII',
-    logo: 'https://via.placeholder.com/150x80/0066CC/FFFFFF?text=CII',
-    alt: 'CII Logo',
-  },
-];
+// const certifications: Certification[] = [
+//   {
+//     id: '1',
+//     name: 'IndianOil',
+//     logo: 'https://via.placeholder.com/150x80/FF6600/FFFFFF?text=IndianOil',
+//     alt: 'IndianOil Logo',
+//   },
+//   {
+//     id: '2',
+//     name: 'NTPC',
+//     logo: 'https://via.placeholder.com/150x80/0066CC/FFFFFF?text=NTPC',
+//     alt: 'NTPC Logo',
+//   },
+//   {
+//     id: '3',
+//     name: 'BRAITHWAITE',
+//     logo: 'https://via.placeholder.com/150x80/000000/FFFFFF?text=BRAITHWAITE',
+//     alt: 'Braithwaite Logo',
+//   },
+//   {
+//     id: '4',
+//     name: 'CII',
+//     logo: 'https://via.placeholder.com/150x80/0066CC/FFFFFF?text=CII',
+//     alt: 'CII Logo',
+//   },
+// ];
 
-const isoCertifications = [
-  { id: '1', name: 'ISO 9001: 2015' },
-  { id: '2', name: 'ISO 14001: 2015' },
-  { id: '3', name: 'ISO 45001: 2018' },
-  { id: '4', name: 'ISO 50001: 2018' },
-];
+// const isoCertifications = [
+//   { id: '1', name: 'ISO 9001: 2015' },
+//   { id: '2', name: 'ISO 14001: 2015' },
+//   { id: '3', name: 'ISO 45001: 2018' },
+//   { id: '4', name: 'ISO 50001: 2018' },
+// ];
 
 export const CertificationsSection: React.FC = () => {
   return (
