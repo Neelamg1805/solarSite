@@ -42,14 +42,14 @@ const coreValues = [
   },
 ];
 
-const hexagonValues = [
-  { label: 'TRUST', icon: '🤝' },
-  { label: 'CREATIVITY', icon: '💡' },
-  { label: 'TEAMWORK', icon: '👥' },
-  { label: 'GOALS', icon: '🎯' },
-  { label: 'GROWTH', icon: '📈' },
-  { label: 'RESPONSIBILITY', icon: '⚖️' },
-];
+// const hexagonValues = [
+//   { label: 'TRUST', icon: '🤝' },
+//   { label: 'CREATIVITY', icon: '💡' },
+//   { label: 'TEAMWORK', icon: '👥' },
+//   { label: 'GOALS', icon: '🎯' },
+//   { label: 'GROWTH', icon: '📈' },
+//   { label: 'RESPONSIBILITY', icon: '⚖️' },
+// ];
 
 export const About: React.FC = () => {
   return (
@@ -70,7 +70,7 @@ export const About: React.FC = () => {
         {/* Hexagonal Values Overlay */}
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="grid grid-cols-3 md:grid-cols-4 gap-4 md:gap-6 max-w-4xl mx-auto px-4">
-            {hexagonValues.map((value, index) => (
+            {/* {hexagonValues.map((value, index) => (
               <div
                 key={index}
                 className="relative group"
@@ -83,7 +83,7 @@ export const About: React.FC = () => {
                   <span className="text-xs md:text-sm font-semibold text-center px-2">{value.label}</span>
                 </div>
               </div>
-            ))}
+            ))} */}
           </div>
         </div>
 
