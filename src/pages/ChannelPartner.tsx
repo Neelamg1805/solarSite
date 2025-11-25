@@ -84,7 +84,7 @@ export const ChannelPartner: React.FC = () => {
             Benefits of Being Business Partner with Us
           </h2>
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-12 max-w-4xl">
-            Become a Solar Channel Partner with Solluz Energy and grow your business in the booming 
+            Become a Solar Channel Partner with Sunvatsa Energy and grow your business in the booming 
             solar industry! Partner with us for premium solar solutions, expert support, and high-profit 
             opportunities. Join hands to accelerate India's green energy transition while earning lucrative 
             rewards. Let's power a brighter future together!
@@ -171,7 +171,7 @@ export const ChannelPartner: React.FC = () => {
                 </h2>
                 
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Connect here for the Solluz Energy Solar Channel Partner Program and unlock exciting 
+                  Connect here for the Sunvatsa Energy Solar Channel Partner Program and unlock exciting 
                   opportunities in the solar industry. Partner with us for high-quality solar solutions, 
                   expert support, and profitable growth. Join today!
                 </p>
@@ -235,10 +235,10 @@ export const ChannelPartner: React.FC = () => {
                       Email
                     </h3>
                     <a
-                      href="mailto:info@solluz.co.in"
+                      href="mailto:info@Sunvatsa.co.in"
                       className="text-lg md:text-xl font-semibold text-gray-900 hover:text-orange-500 transition-colors"
                     >
-                      info@solluz.co.in
+                      info@Sunvatsa.co.in
                     </a>
                   </div>
                 </div>

@@ -56,7 +56,7 @@ export const Contact: React.FC = () => {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Solluz Energy Location"
+          title="Sunvatsa Energy Location"
           className="w-full h-full"
         ></iframe>
       </section>
@@ -72,7 +72,7 @@ export const Contact: React.FC = () => {
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-1 bg-orange-500 rounded"></div>
                   <span className="text-sm font-semibold text-gray-500 uppercase tracking-wider">
-                    GET IN TOUCH SOLLUZ ENERGY
+                    GET IN TOUCH Sunvatsa ENERGY
                   </span>
                 </div>
                 
@@ -144,10 +144,10 @@ export const Contact: React.FC = () => {
                       Email
                     </h3>
                     <a
-                      href="mailto:info@solluz.co.in"
+                      href="mailto:info@Sunvatsa.co.in"
                       className="text-lg md:text-xl font-semibold text-gray-900 hover:text-orange-500 transition-colors"
                     >
-                      info@solluz.co.in
+                      info@Sunvatsa.co.in
                     </a>
                   </div>
                 </div>

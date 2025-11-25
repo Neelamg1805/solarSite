@@ -1,7 +1,7 @@
 import React from 'react';
 import { Hero } from '../components/Hero';
 import { IntroductionSection } from '../components/IntroductionSection';
-import { ServicesSection } from '../components/ServicesSection';
+import { ServicesSection } from '../../public/ServicesSection';
 import { ProjectsSection } from '../components/ProjectsSection';
 import { BenefitsSection } from '../components/BenefitsSection';
 import { HowItWorksSection } from '../components/HowItWorksSection';

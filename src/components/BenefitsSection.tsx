@@ -24,7 +24,7 @@ export const BenefitsSection: React.FC = () => {
 
             {/* Main Heading */}
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
-              Why Choose Solluz Energy for Your Solar Solution?
+              Why Choose Sunvatsa Energy for Your Solar Solution?
             </h2>
 
             {/* Description */}

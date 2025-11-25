@@ -91,7 +91,7 @@ export const Safety: React.FC = () => {
               
               <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
                 <p>
-                  At Solluz Energy, safety is our top priority during all{' '}
+                  At Sunvatsa Energy, safety is our top priority during all{' '}
                   <span className="text-orange-500 font-semibold">solar installations</span>. 
                   We conduct real-time assessment and implement safe practices to ensure the 
                   well-being of our team and partners. Our commitment extends to{' '}
@@ -123,7 +123,7 @@ export const Safety: React.FC = () => {
             {/* Left Column - Safety Fundamentals */}
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-                Solluz's safety fundamentals apply to operations with specific conditions and requirements.
+                Sunvatsa's safety fundamentals apply to operations with specific conditions and requirements.
               </h2>
               
               <ul className="space-y-4">

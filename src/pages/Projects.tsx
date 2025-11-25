@@ -116,9 +116,9 @@ export const Projects: React.FC = () => {
                   <div className="absolute top-4 left-4 bg-orange-500 text-white px-3 py-1 rounded-lg text-sm font-semibold">
                     {project.capacity}
                   </div>
-                  {/* SOLLUZ Logo */}
+                  {/* Sunvatsa Logo */}
                   <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-2 py-1 rounded text-xs font-bold text-gray-900">
-                    SOLLUZ
+                    Sunvatsa
                   </div>
                 </div>
 
@@ -154,11 +154,11 @@ export const Projects: React.FC = () => {
         </div>
       </section>
 
-      {/* Why Choose Solluz Section */}
+      {/* Why Choose Sunvatsa Section */}
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 text-center mb-12">
-            Why Choose Solluz Energy for Your Solar Projects?
+            Why Choose Sunvatsa Energy for Your Solar Projects?
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
@@ -230,7 +230,7 @@ export const Projects: React.FC = () => {
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
             Investing in solar projects is one of the <span className="font-bold">smartest choices</span> 
             you can make for a sustainable and <span className="font-bold">cost-effective</span> future. 
-            At Solluz Energy, we are committed to providing <span className="font-bold">top-notch solar</span> 
+            At Sunvatsa Energy, we are committed to providing <span className="font-bold">top-notch solar</span> 
             solutions that benefit both <span className="font-bold">individuals</span> and{' '}
             <span className="font-bold">businesses</span>.
           </p>
@@ -246,7 +246,7 @@ export const Projects: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Solluz Energy Solar Projects
+              Sunvatsa Energy Solar Projects
             </h2>
             <p className="text-gray-600">Explore our projects across India and beyond</p>
           </div>
@@ -259,7 +259,7 @@ export const Projects: React.FC = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Solluz Energy Project Locations"
+              title="Sunvatsa Energy Project Locations"
               className="w-full"
             ></iframe>
           </div>
