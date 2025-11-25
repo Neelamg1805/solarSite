@@ -1,12 +1,12 @@
 import React from 'react';
-
+import solarPanelImage from '../../public/photovoltaic-2138992_1280.jpg';
 interface IntroductionSectionProps {
   imageUrl?: string;
 }
 
 export const IntroductionSection: React.FC<IntroductionSectionProps> = ({
-  imageUrl = 'https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
-}) => {
+      imageUrl = solarPanelImage,
+    }) => {
   const features = [
     "India's Leading Renewable Energy Company",
     "Sustainable Energy Solutions for a Greener Tomorrow",

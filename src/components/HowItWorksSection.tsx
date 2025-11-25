@@ -1,5 +1,7 @@
 import React from 'react';
 
+const howItWorksImage = '/solar-panel-7518786_640.jpg';
+
 interface Step {
   id: number;
   title: string;
@@ -88,89 +90,77 @@ const steps: Step[] = [
 
 export const HowItWorksSection: React.FC = () => {
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-b from-blue-900 to-blue-800 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            The solar switch made simple
-          </h2>
-          <p className="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto">
-            Switching to solar can seem daunting, but we've got you covered. Here's how it works
-          </p>
-        </div>
+    <></>
+    // <section className="relative py-16 md:py-24 text-white overflow-hidden">
+    //   <div className="absolute inset-0">
+    //     <img
+    //       src={howItWorksImage}
+    //       alt="Technician installing rooftop solar panels"
+    //       className="w-full h-full object-cover"
+    //       loading="lazy"
+    //     />
+    //     <div className="absolute inset-0 bg-gradient-to-b from-blue-900/95 via-blue-900/85 to-blue-800/90" />
+    //   </div>
 
-        {/* Timeline */}
-        <div className="relative max-w-4xl mx-auto">
-          {/* Vertical Line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-blue-400 hidden md:block"></div>
+    //   <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    //     <div className="text-center mb-16">
+    //       <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">The solar switch made simple</h2>
+    //       <p className="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto">
+    //         Switching to solar can seem daunting, but we've got you covered. Here's how it works
+    //       </p>
+    //     </div>
 
-          {/* Steps */}
-          <div className="space-y-16 md:space-y-24">
-            {steps.map((step) => (
-              <div
-                key={step.id}
-                className={`relative flex flex-col md:flex-row items-center ${
-                  step.position === 'left' ? 'md:flex-row-reverse' : ''
-                }`}
-              >
-                {/* Content Card */}
-                <div
-                  className={`w-full md:w-5/12 ${
-                    step.position === 'left' ? 'md:text-right md:pr-8' : 'md:text-left md:pl-8'
-                  }`}
-                >
-                  <div className="bg-blue-800/50 backdrop-blur-sm rounded-lg p-6 md:p-8 border border-blue-700/50">
-                    <h3 className="text-2xl md:text-3xl font-bold mb-4">{step.title}</h3>
-                    <p className="text-blue-100 text-base md:text-lg leading-relaxed mb-6">
-                      {step.description}
-                    </p>
-                    {step.cta && (
-                      <a
-                        href={step.cta.link}
-                        className="inline-flex items-center justify-center px-6 py-3 bg-blue-400 hover:bg-blue-300 text-blue-900 font-semibold rounded-lg transition-colors duration-300"
-                      >
-                        {step.cta.text}
-                        <svg
-                          className="ml-2 w-5 h-5"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M13 7l5 5m0 0l-5 5m5-5H6"
-                          />
-                        </svg>
-                      </a>
-                    )}
-                  </div>
-                </div>
+    //     <div className="relative max-w-4xl mx-auto">
+    //       <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-blue-400 hidden md:block" />
+    //       <div className="space-y-16 md:space-y-24">
+    //         {steps.map((step) => (
+    //           <div
+    //             key={step.id}
+    //             className={`relative flex flex-col md:flex-row items-center ${
+    //               step.position === 'left' ? 'md:flex-row-reverse' : ''
+    //             }`}
+    //           >
+    //             <div
+    //               className={`w-full md:w-5/12 ${
+    //                 step.position === 'left' ? 'md:text-right md:pr-8' : 'md:text-left md:pl-8'
+    //               }`}
+    //             >
+    //               <div className="bg-blue-800/50 backdrop-blur-sm rounded-lg p-6 md:p-8 border border-blue-700/50">
+    //                 <h3 className="text-2xl md:text-3xl font-bold mb-4">{step.title}</h3>
+    //                 <p className="text-blue-100 text-base md:text-lg leading-relaxed mb-6">{step.description}</p>
+    //                 {step.cta && (
+    //                   <a
+    //                     href={step.cta.link}
+    //                     className="inline-flex items-center justify-center px-6 py-3 bg-blue-400 hover:bg-blue-300 text-blue-900 font-semibold rounded-lg transition-colors duration-300"
+    //                   >
+    //                     {step.cta.text}
+    //                     <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    //                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+    //                     </svg>
+    //                   </a>
+    //                 )}
+    //               </div>
+    //             </div>
 
-                {/* Timeline Node */}
-                <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex items-center justify-center w-16 h-16 bg-blue-400 rounded-full border-4 border-blue-900 z-10">
-                  <div className="w-12 h-12 bg-blue-900 rounded-full flex items-center justify-center text-blue-400">
-                    {step.icon}
-                  </div>
-                </div>
+    //             <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex items-center justify-center w-16 h-16 bg-blue-400 rounded-full border-4 border-blue-900 z-10">
+    //               <div className="w-12 h-12 bg-blue-900 rounded-full flex items-center justify-center text-blue-400">
+    //                 {step.icon}
+    //               </div>
+    //             </div>
 
-                {/* Mobile Icon */}
-                <div className="md:hidden mb-6 flex items-center justify-center w-16 h-16 bg-blue-400 rounded-full border-4 border-blue-900">
-                  <div className="w-12 h-12 bg-blue-900 rounded-full flex items-center justify-center text-blue-400">
-                    {step.icon}
-                  </div>
-                </div>
+    //             <div className="md:hidden mb-6 flex items-center justify-center w-16 h-16 bg-blue-400 rounded-full border-4 border-blue-900">
+    //               <div className="w-12 h-12 bg-blue-900 rounded-full flex items-center justify-center text-blue-400">
+    //                 {step.icon}
+    //               </div>
+    //             </div>
 
-                {/* Spacer for alignment */}
-                <div className="hidden md:block w-5/12"></div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
+    //             <div className="hidden md:block w-5/12" />
+    //           </div>
+    //         ))}
+    //       </div>
+    //     </div>
+    //   </div>
+    // </section>
   );
 };
 

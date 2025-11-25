@@ -1,4 +1,7 @@
-import React from 'react';
+import React from 'react';''
+const openAccessImage = '/photovoltaic-2138992_1280.jpg';
+const installationImage = '/solar-panel-7518786_640.jpg';
+const maintenanceImage = '/panel-6816102_640.jpg';
 interface ServiceCard {
   id: string;
   title: string;
@@ -13,7 +16,7 @@ const services: ServiceCard[] = [
     title: 'Open Access Solar',
     description:
       'Under Open Access, Solar business operators can directly receive renewable power produced by their source. The system offers additional benefits to businesses while reducing costs and providing a cleaner energy solution.',
-    imageUrl: 'energy-78116_640.jpg',
+    imageUrl: openAccessImage,
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path
@@ -30,7 +33,7 @@ const services: ServiceCard[] = [
     title: 'Solar Installation',
     description:
       'The company provides comprehensive installations of solar panel systems to all its customers. The components operate optimally for industrial and business applications, which produce outstanding operational results and efficiency.',
-    imageUrl: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    imageUrl: installationImage,
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path
@@ -47,7 +50,7 @@ const services: ServiceCard[] = [
     title: 'Operations & Maintenance',
     description:
       'A skilled team under our organization delivers comprehensive operations and maintenance (O&M) services. Our organization enhances the operational longevity of solar energy systems and boosts their robustness.',
-    imageUrl: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    imageUrl: maintenanceImage,
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path

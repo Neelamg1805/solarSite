@@ -1,4 +1,12 @@
 import React, { useState } from 'react';
+import solarPanelImage from '../../public/beautiful-alternative-energy-plant-with-solar-panels (1).jpg';
+import solarPanelImage2 from '../../public/solar-panels-2458717_640.jpg';
+import solarPanelImage3 from '../../public/panel-9864247_640.webp';
+import solarPanelImage4 from '../../public/panel-6816102_640.jpg';
+import solarPanelImage5 from '../../public/solar-panels-2458717_640.jpg';
+import solarPanelImage6 from '../../public/photovoltaic-system-2742302_1280.jpg';
+import solarPanelImage7 from '../../public/energy-139366_640.jpg';
+import solarPanelImage8 from '../../public/photovoltaic-2138992_1280.jpg';
 
 interface Project {
   id: string;
@@ -11,49 +19,49 @@ const projects: Project[] = [
   {
     id: '1',
     title: 'Solar Canopy Installation',
-    imageUrl: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    imageUrl: solarPanelImage,
     description: 'Solar panels installed as canopies over parking area',
   },
   {
     id: '2',
     title: 'Rooftop Solar Array',
-    imageUrl: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    imageUrl: solarPanelImage2,
     description: 'Solar panels on corrugated metal rooftop',
   },
   {
     id: '3',
     title: 'Ground-Mounted Solar Farm',
-    imageUrl: 'https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    imageUrl: solarPanelImage3,
     description: 'Ground-mounted solar array in open field',
   },
   {
     id: '4',
     title: 'Large Scale Solar Farm',
-    imageUrl: 'https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    imageUrl: solarPanelImage4,
     description: 'Vast solar farm with numerous rows of panels',
   },
   {
     id: '5',
     title: 'Industrial Solar Installation',
-    imageUrl: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    imageUrl: solarPanelImage5,
     description: 'Large-scale industrial solar project',
   },
   {
     id: '6',
     title: 'Residential Solar Setup',
-    imageUrl: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    imageUrl: solarPanelImage6,
     description: 'Modern residential solar panel installation',
   },
   {
     id: '7',
     title: 'Commercial Rooftop Project',
-    imageUrl: 'https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    imageUrl: solarPanelImage7,
     description: 'Large commercial building with solar panels',
   },
   {
     id: '8',
     title: 'Solar Park Development',
-    imageUrl: 'https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    imageUrl: solarPanelImage8,
     description: 'Extensive solar park with multiple arrays',
   },
 ];

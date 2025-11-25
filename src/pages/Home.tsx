@@ -9,6 +9,7 @@ import { ClienteleSection } from '../components/ClienteleSection';
 import { CertificationsSection } from '../components/CertificationsSection';
 import { Footer } from '../components/Footer';
 import { ScrollToTop } from '../components/ScrollToTop';
+import solarPanelImage from '../../public/photovoltaic-2138992_1280.jpg';
 
 export const Home: React.FC = () => {
   return (
@@ -22,8 +23,8 @@ export const Home: React.FC = () => {
       
       {/* Introduction Section */}
       <IntroductionSection
-        imageUrl="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
-      />
+        imageUrl={solarPanelImage}
+      /> 
 
       {/* Services Section */}
       <ServicesSection />

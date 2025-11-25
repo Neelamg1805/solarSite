@@ -35,7 +35,7 @@ export const Navigation: React.FC = () => {
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       {/* Top Bar with Contact Info */}
-      <div className="bg-gray-50 border-b border-gray-200">
+      {/* <div className="bg-gray-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center py-2 text-sm">
             <div className="flex flex-col md:flex-row md:items-center md:space-x-6 mb-2 md:mb-0">
@@ -66,7 +66,7 @@ export const Navigation: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Navigation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -100,31 +100,29 @@ export const Navigation: React.FC = () => {
                 {item.path ? (
                   <Link
                     to={item.path}
-                    className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
-                      location.pathname === item.path
+                    className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${location.pathname === item.path
                         ? 'text-orange-500 bg-orange-50'
                         : 'text-gray-700 hover:text-orange-500 hover:bg-gray-50'
-                    }`}
+                      }`}
                   >
                     {item.label}
                   </Link>
                 ) : (
                   <button
-                    className={`px-4 py-2 text-sm font-medium rounded-md transition-colors flex items-center ${
-                      activeDropdown === item.label
+                    className={`px-4 py-2 text-sm font-medium rounded-md transition-colors flex items-center ${activeDropdown === item.label
                         ? 'text-orange-500 bg-orange-50'
                         : 'text-gray-700 hover:text-orange-500 hover:bg-gray-50'
-                    }`}
+                      }`}
                   >
                     {item.label}
-                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    {/* <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
+                    </svg> */}
                   </button>
                 )}
 
                 {/* Dropdown Menu */}
-                {item.dropdown && activeDropdown === item.label && (
+                {/* {item.dropdown && activeDropdown === item.label && (
                   <div className="absolute top-full left-0 mt-1 w-64 bg-white rounded-lg shadow-xl border border-gray-200 py-2 z-50">
                     {item.dropdown.map((dropdownItem) => (
                       <Link
@@ -136,7 +134,7 @@ export const Navigation: React.FC = () => {
                       </Link>
                     ))}
                   </div>
-                )}
+                )} */}
               </div>
             ))}
           </div>

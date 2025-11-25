@@ -43,15 +43,15 @@ const isoCertifications = [
 
 export const CertificationsSection: React.FC = () => {
   return (
-    <section className="py-16 md:py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section>
+      <div>
         {/* Section Title */}
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 text-center mb-12">
+        {/* <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 text-center mb-12">
           Empanelment and certifications
-        </h2>
+        </h2> */}
 
         {/* Certification Logos */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mb-16">
+        {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mb-16">
           {certifications.map((cert) => (
             <div
               key={cert.id}
@@ -65,10 +65,10 @@ export const CertificationsSection: React.FC = () => {
               />
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* ISO Certifications */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {isoCertifications.map((iso) => (
             <div
               key={iso.id}
@@ -94,7 +94,7 @@ export const CertificationsSection: React.FC = () => {
               <div className="text-gray-900 font-semibold text-lg">{iso.name}</div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
