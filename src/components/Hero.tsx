@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../public/logo.png';
 
 interface HeroProps {
   backgroundImage?: string;
@@ -32,15 +33,7 @@ export const Hero: React.FC<HeroProps> = ({
             {/* Logo Overlay */}
             <div className="mb-8 opacity-90">
               <div className="flex items-center space-x-3 mb-2">
-                <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center">
-                  <svg
-                    className="w-8 h-8 text-yellow-800"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                  </svg>
-                </div>
+                <img src={logo} alt="Sunvatsa Logo" className="w-12 h-12" />
                 <div>
                   <h1 className="text-4xl md:text-5xl font-bold text-white font-display">
                     Sunvatsa
