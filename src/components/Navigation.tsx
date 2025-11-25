@@ -83,7 +83,7 @@ export const Navigation: React.FC = () => {
               </svg>
             </div>
             <div>
-              <div className="text-2xl font-bold text-gray-900 font-display">SOLLUZ</div>
+              <div className="text-2xl font-bold text-gray-900 font-display">Sunvatsa</div>
               <div className="text-xs text-gray-600 font-medium">INVESTING IN A BETTER FUTURE</div>
             </div>
           </Link>

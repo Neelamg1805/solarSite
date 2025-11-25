@@ -43,7 +43,7 @@ export const Hero: React.FC<HeroProps> = ({
                 </div>
                 <div>
                   <h1 className="text-4xl md:text-5xl font-bold text-white font-display">
-                    SOLLUZ
+                    Sunvatsa
                   </h1>
                   <p className="text-sm md:text-base text-yellow-300 font-medium">
                     {title}

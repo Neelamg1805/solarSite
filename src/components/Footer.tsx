@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
                 </svg>
               </div>
               <div>
-                <div className="text-2xl font-bold text-white font-display">SOLLUZ</div>
+                <div className="text-2xl font-bold text-white font-display">Sunvatsa</div>
                 <div className="text-xs text-gray-400 font-medium">INVESTING IN A BETTER FUTURE</div>
               </div>
             </div>
@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
             </p>
             <div className="space-y-3">
               <a
-                href="mailto:info@solluz.co.in"
+                href="mailto:info@Sunvatsa.co.in"
                 className="flex items-center space-x-3 text-gray-300 hover:text-yellow-400 transition-colors"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -41,7 +41,7 @@ export const Footer: React.FC = () => {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <span>info@solluz.co.in</span>
+                <span>info@Sunvatsa.co.in</span>
               </a>
               <a
                 href="tel:+917827110601"
@@ -192,7 +192,7 @@ export const Footer: React.FC = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Solluz Energy Location"
+                title="Sunvatsa Energy Location"
               ></iframe>
             </div>
           </div>
@@ -201,7 +201,7 @@ export const Footer: React.FC = () => {
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © Copyrights are Reserved by solluz.co.in {currentYear}
+            © Copyrights are Reserved by Sunvatsa.co.in {currentYear}
           </p>
         </div>
       </div>

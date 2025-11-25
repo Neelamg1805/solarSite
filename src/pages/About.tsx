@@ -61,7 +61,7 @@ export const About: React.FC = () => {
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
-            alt="About Solluz Energy"
+            alt="About Sunvatsa Energy"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60"></div>
@@ -99,10 +99,10 @@ export const About: React.FC = () => {
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Welcome to Solluz Energy
+            Welcome to Sunvatsa Energy
           </h2>
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-            At Solluz Energy, we are dedicated to sustainable energy solutions, empowering businesses 
+            At Sunvatsa Energy, we are dedicated to sustainable energy solutions, empowering businesses 
             and communities towards a carbon-neutral future. Our commitment to{' '}
             <span className="text-orange-500 font-semibold">solar power technologies</span> drives 
             innovation and excellence in every project we undertake.

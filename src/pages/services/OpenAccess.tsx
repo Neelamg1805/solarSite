@@ -157,7 +157,7 @@ export const OpenAccess: React.FC = () => {
                       Captive Open Access
                     </h4>
                     <p className="text-lg text-gray-700 leading-relaxed">
-                      In this model, the consumer invests in the solar project, and Solluz provides 
+                      In this model, the consumer invests in the solar project, and Sunvatsa provides 
                       comprehensive support including{' '}
                       <span className="text-orange-500 font-semibold">Operations and Maintenance</span>. 
                       The consumer owns the asset and benefits from maximum savings.

@@ -86,7 +86,7 @@ export const IntroductionSection: React.FC<IntroductionSectionProps> = ({
 
             {/* Description Paragraph */}
             <p className="text-gray-600 text-base md:text-lg leading-relaxed mt-6">
-              Solluz Energy is a top player in the Indian solar panel business, offering sustainable 
+              Sunvatsa Energy is a top player in the Indian solar panel business, offering sustainable 
               energy solutions that help create a greener tomorrow. We provide top-tier installation 
               and maintenance services, transforming renewable energy with solar power. As one of the 
               best Solar EPC companies in India, we are committed to ecological progress and helping 
