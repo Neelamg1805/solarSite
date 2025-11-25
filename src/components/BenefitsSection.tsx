@@ -1,5 +1,6 @@
 import React from 'react';
 import benefitsImage from '../../public/photovoltaic-2138992_1280.jpg';
+import benefitsImage2 from '../../public/solar-panel-7518786_640.jpg';
 
 const benefits = [
   'Discover the Benefits of Solar Panel Solutions',
@@ -81,7 +82,7 @@ export const BenefitsSection: React.FC = () => {
             </div>
             <div className="relative rounded-lg overflow-hidden shadow-2xl">
               <img
-                src={benefitsImage}
+                src={benefitsImage2}
                 alt="Rooftop solar panels"
                 className="w-full h-64 md:h-80 object-cover"
                 loading="lazy"
