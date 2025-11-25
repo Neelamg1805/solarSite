@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import logo from '../../public/logo.png';
 
 interface NavItem {
   label: string;
@@ -73,15 +74,7 @@ export const Navigation: React.FC = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center flex-shrink-0">
-              <svg
-                className="w-8 h-8 text-yellow-800"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-              </svg>
-            </div>
+            <img src={logo} alt="Sunvatsa Logo" className="w-12 h-12" />
             <div>
               <div className="text-2xl font-bold text-gray-900 font-display">Sunvatsa</div>
               <div className="text-xs text-gray-600 font-medium">INVESTING IN A BETTER FUTURE</div>
