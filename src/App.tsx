@@ -22,7 +22,6 @@ function App() {
       <div className="App">
         <Navigation />
         <ContactSidebar />
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -36,7 +35,6 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<LoginAs />} />
         </Routes>
-
         <ToastContainer
           position="top-right"
           autoClose={3000}

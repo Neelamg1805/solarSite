@@ -1,4 +1,5 @@
 import React from 'react';
+import benefitsImage from '../../public/photovoltaic-2138992_1280.jpg';
 
 const benefits = [
   'Discover the Benefits of Solar Panel Solutions',
@@ -72,7 +73,7 @@ export const BenefitsSection: React.FC = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="relative rounded-lg overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+                src={benefitsImage}
                 alt="Industrial solar installation"
                 className="w-full h-64 md:h-80 object-cover"
                 loading="lazy"
@@ -80,7 +81,7 @@ export const BenefitsSection: React.FC = () => {
             </div>
             <div className="relative rounded-lg overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+                src={benefitsImage}
                 alt="Rooftop solar panels"
                 className="w-full h-64 md:h-80 object-cover"
                 loading="lazy"
