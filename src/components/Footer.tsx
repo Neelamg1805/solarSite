@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
             </p>
             <div className="space-y-3">
               <a
-                href="mailto:info@Sunvatsa.co.in"
+                href="mailto:Info.sunvatsa@gmail.com"
                 className="flex items-center space-x-3 text-gray-300 hover:text-yellow-400 transition-colors"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -41,10 +41,10 @@ export const Footer: React.FC = () => {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <span>info@Sunvatsa.co.in</span>
+                <span>Info.sunvatsa@gmail.com</span>
               </a>
               <a
-                href="tel:+917827110601"
+                href="tel:+918602289089"
                 className="flex items-center space-x-3 text-gray-300 hover:text-yellow-400 transition-colors"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -55,7 +55,21 @@ export const Footer: React.FC = () => {
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-                <span>+91 - 7827110601</span>
+                <span>+91 - 8602289089</span>
+              </a>
+              <a
+                href="tel:+918602499199"
+                className="flex items-center space-x-3 text-gray-300 hover:text-yellow-400 transition-colors"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+                <span>+91 - 8602499199</span>
               </a>
             </div>
             {/* Social Media Icons */}
@@ -181,7 +195,7 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Contact</h3>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
-              JMD Megapolis, 4th Floor, 419-424, Sohna Road, Sector - 48, Gurugram.
+              Sunvatsa Infratech, infront of Police Station Jewra Sirsa, Near IIT Bhilai, Jewra Sirsa, Dhamdha Road, SH-7, Dist. Durg, Chhattisgarh, 491001
             </p>
             <div className="bg-gray-800 rounded-lg overflow-hidden h-48">
               <iframe

@@ -40,15 +40,23 @@ export const Navigation: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center py-2 text-sm">
             <div className="flex flex-col md:flex-row md:items-center md:space-x-6 mb-2 md:mb-0">
-              <a href="tel:+917827110601" className="text-gray-700 hover:text-orange-500 flex items-center">
-                <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                +91-7827110601
-              </a>
+              <div className="flex flex-col">
+                <a href="tel:+918602289089" className="text-gray-700 hover:text-orange-500 flex items-center">
+                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  +91-8602289089
+                </a>
+                <a href="tel:+918602499199" className="text-gray-700 hover:text-orange-500 flex items-center">
+                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  +91-8602499199
+                </a>
+              </div>
               <span className="text-gray-600 hidden md:inline">|</span>
               <span className="text-gray-700 text-center md:text-left">
-                JMD Megapolis, 4th Floor, 419-424, Sohna Road, Sector - 48, Gurugram.
+                Sunvatsa Infratech, infront of Police Station Jewra Sirsa, Near IIT Bhilai, Jewra Sirsa, Dhamdha Road, SH-7, Dist. Durg, Chhattisgarh, 491001
               </span>
             </div>
             <div className="flex items-center space-x-4">

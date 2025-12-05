@@ -111,12 +111,20 @@ export const Contact: React.FC = () => {
                     <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">
                       Phone
                     </h3>
-                    <a
-                      href="tel:+917827110601"
-                      className="text-lg md:text-xl font-semibold text-gray-900 hover:text-orange-500 transition-colors"
-                    >
-                      +91 - 7827110601
-                    </a>
+                    <div className="space-y-1">
+                      <a
+                        href="tel:+918602289089"
+                        className="block text-lg md:text-xl font-semibold text-gray-900 hover:text-orange-500 transition-colors"
+                      >
+                        +91 - 8602289089
+                      </a>
+                      <a
+                        href="tel:+918602499199"
+                        className="block text-lg md:text-xl font-semibold text-gray-900 hover:text-orange-500 transition-colors"
+                      >
+                        +91 - 8602499199
+                      </a>
+                    </div>
                   </div>
                 </div>
 
@@ -144,10 +152,10 @@ export const Contact: React.FC = () => {
                       Email
                     </h3>
                     <a
-                      href="mailto:info@Sunvatsa.co.in"
+                      href="mailto:Info.sunvatsa@gmail.com"
                       className="text-lg md:text-xl font-semibold text-gray-900 hover:text-orange-500 transition-colors"
                     >
-                      info@Sunvatsa.co.in
+                      Info.sunvatsa@gmail.com
                     </a>
                   </div>
                 </div>
@@ -182,7 +190,7 @@ export const Contact: React.FC = () => {
                       Address
                     </h3>
                     <p className="text-lg md:text-xl font-semibold text-gray-900 leading-relaxed">
-                      Jmd Megapolis, 4th Floor, 419-424, Sohna Road, Sector - 48, Gurgaon.
+                      Sunvatsa Infratech, infront of Police Station Jewra Sirsa, Near IIT Bhilai, Jewra Sirsa, Dhamdha Road, SH-7, Dist. Durg, Chhattisgarh, 491001
                     </p>
                   </div>
                 </div>
