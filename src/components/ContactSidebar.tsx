@@ -32,7 +32,7 @@ export const ContactSidebar: React.FC = () => {
       {/* Contact Icons */}
       {/* <div className="mt-2 space-y-0">
         <a
-          href="tel:+917827110601"
+          href="tel:+918602289089"
           className="block w-14 h-14 bg-green-500 hover:bg-green-600 rounded-tl-lg flex items-center justify-center shadow-lg transition-colors"
           title="Call"
         >
@@ -41,7 +41,7 @@ export const ContactSidebar: React.FC = () => {
           </svg>
         </a>
         <a
-          href="https://wa.me/917827110601"
+          href="https://wa.me/918602289089"
           target="_blank"
           rel="noopener noreferrer"
           className="block w-14 h-14 bg-green-600 hover:bg-green-700 rounded-bl-lg flex items-center justify-center shadow-lg transition-colors"

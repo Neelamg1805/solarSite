@@ -135,12 +135,20 @@ export const IntroductionSection: React.FC<IntroductionSectionProps> = ({
                 </div>
                 <div>
                   <div className="text-sm text-gray-500">Have any questions?</div>
-                  <a
-                    href="tel:+917827110601"
-                    className="text-base md:text-lg font-semibold text-gray-900 hover:text-orange-500 transition-colors"
-                  >
-                    +91-7827110601
-                  </a>
+                  <div className="space-y-1">
+                    <a
+                      href="tel:+918602289089"
+                      className="block text-base md:text-lg font-semibold text-gray-900 hover:text-orange-500 transition-colors"
+                    >
+                      +91-8602289089
+                    </a>
+                    <a
+                      href="tel:+918602499199"
+                      className="block text-base md:text-lg font-semibold text-gray-900 hover:text-orange-500 transition-colors"
+                    >
+                      +91-8602499199
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
